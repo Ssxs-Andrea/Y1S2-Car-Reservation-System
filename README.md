@@ -7,6 +7,9 @@ The system must require the staff to enter their assigned username and password 
 Upon login, the system should display the user’s actual name on the system’s user interface. 
 
 The system have the following functionalities:
+
 a. New Reservation
+
 b. Change / Update Reservation
+
 c. Cancel Reservation
