@@ -1,0 +1,189 @@
+
+body{
+    background-image: url('carimage/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  
+
+/* title for the page  */
+.title1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+/* instruction  */
+.instruction{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+}
+/* make the page align in the middle */
+.alignpage{
+    text-align: center;
+} 
+/* logo  at the header*/
+.logo img {
+    float: right;
+    width: 80px;
+    height:80px;
+    z-index: 999;
+}
+.colour{
+    background-color: #1b0236;
+    padding-bottom: 80px;
+}
+/* the input box for the user input  */
+.answer{
+    padding: 3px 3px;
+    border-radius: 10px;
+    margin:3px 3px;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 14px 14px;
+    width:240px;
+    margin-top: 15px;
+ }
+ /* button to confirm  */
+.confirm{
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    transition-duration: 0.4s;
+    border:transparent;
+    font-style:inherit;
+    background-color: #1b0236;
+    color: #f1f1f1;
+    margin-top: 30px;
+    margin-left:1px;
+    margin-right:1px;
+}
+.confirm:hover{
+    background-color: #07226688;
+    color: white;
+    cursor: pointer;
+} 
+/* button to reset  */
+.reset{
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    transition-duration: 0.4s;
+    border:transparent;
+    font-style:inherit;
+    background-color: #1b0236;
+    color: #f1f1f1;
+    margin-top: 30px;
+    margin-left:1px;
+    margin-right:1px;
+}
+.reset:hover{
+    background-color:#07226688;
+    color: white;
+    cursor: pointer;
+} 
+/* the drop down for car selection */
+select.answer{
+    text-align: center;
+    height: 35px;
+    width: 340px;
+    padding: 5px;
+    margin: 15px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+}
+/* align the option  of car selection*/
+.opt{
+    text-align: left;
+}
+/* content on the car details */
+.cardetails{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 50px;
+    margin:center;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:70px;
+    margin-bottom:70px;
+}
+/* output message */
+.outputmsg{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* link at the output message page */
+.outputlink{
+    text-align: center;
+    margin-bottom: 20px;
+    margin:auto;
+    width: 35%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 40px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1b0236;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition-duration: 0.4s;
+    border:transparent;
+}
+.outputlink:hover{
+    background-color:#07226688;
+    color: white;
+    cursor: pointer;
+}
+/* link for the print page  */
+.outputlink2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin:center;
+    margin:auto;
+    width: 40%;
+    padding: 30px 40px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1b0236;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition-duration: 0.4s;
+    border:transparent;
+}
+.outputlink2:hover{
+    background-color:#07226688;
+    color: white;
+    cursor: pointer;
+}
+
+.profile{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.border {
+    margin: auto;
+    width: 500px;
+    background-color: #dcdadaf0;
+    border-radius: 30px;
+    padding: 20px 10px 10px 10px;
+    text-align:justify;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }

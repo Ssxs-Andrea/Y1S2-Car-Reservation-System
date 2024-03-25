@@ -1,0 +1,103 @@
+body{
+    background-color:#1b0236;
+    /* background-image: url("car.jpg"); */
+    height: 100%;
+    /* background-position: center; */
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.master-div-style{
+    margin: auto;
+    margin-top: 10%;
+    background-color:white;
+    width: 500px;
+    border-radius: 10px;
+    opacity:90%;
+}
+
+.username,.name,.passwords,.email,.phone_number{
+    margin-top: 30px;
+    margin-left: 30%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: #1b0236;
+}
+
+.username:focus,.name:focus,.passwords:focus,.email:focus,.phone_number:focus{
+    transform: scale(1.1);
+    outline: none;
+    box-shadow: 0px 7px 8px rgba(10, 10, 10, 0.684);
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
+    /* border:transparent; */
+    background-color: #1b0236;
+}
+
+.button:hover{
+    background-color: rgb(209, 200, 200);
+    color: white;
+    cursor: pointer;
+    transform:scale(1.3);
+  }
+
+
+.link1{
+    font-size: medium;
+    margin-left: 195px;
+    margin-top: 100px;
+    color: #1b0236;
+    font-weight: 800;
+}
+
+.link1:hover{
+    color: rgb(34, 12, 122);
+}
+
+.havent{
+
+    font-size:medium;
+    font-weight:bold;
+    margin-left: 185px;
+    margin-bottom: 3px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+.link2{
+    font-size: medium;
+    margin-left: 180px;
+    margin-top: 100px;
+    color: #1b0236;
+    font-weight: 800;
+}
+
+.link2:hover{
+    color: rgb(34, 12, 122);
+}
+
+.error{
+    text-align: center;
+    color: red;
+    margin-bottom:-19px;
+    font-size: small;
+}
